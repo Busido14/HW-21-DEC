@@ -9,6 +9,7 @@ import UIKit
 
 class ViewControllerTwo: UIViewController {
     @IBOutlet var imageView: UIImageView!
+   
     var selectedName: String?
     
     override func viewDidLoad() {

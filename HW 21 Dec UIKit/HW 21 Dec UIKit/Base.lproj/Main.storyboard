@@ -55,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1za-np-QJQ">
-                                <rect key="frame" x="0.0" y="155" width="390" height="503"/>
+                                <rect key="frame" x="0.0" y="155" width="390" height="454"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WIn-Y2-uRN"/>
@@ -67,6 +67,8 @@
                             <constraint firstItem="WIn-Y2-uRN" firstAttribute="bottom" secondItem="1za-np-QJQ" secondAttribute="bottom" constant="152" id="XVo-Wb-KCh"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="imageView" destination="1za-np-QJQ" id="xoc-x5-lHS"/>
                     </connections>

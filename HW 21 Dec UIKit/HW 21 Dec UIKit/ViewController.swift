@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+
 class ViewController: UITableViewController {
     var nameUIKit = [String]()
 
@@ -41,8 +43,6 @@ class ViewController: UITableViewController {
             vc.selectedName = nameUIKit[indexPath.row]
             navigationController?.pushViewController(vc, animated: true)
         }
+        
     }
-
-
 }
-
